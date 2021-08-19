@@ -7,17 +7,17 @@
 ----
   
 ### Benefits of using JsonPowerDB: "Benifits of using JsonPowerDB is descripted below"
-   .Simple to use &nbps;
-   .Real time &nbps;
-   .Raw data is human readable &nbps;
-   .Schema Free &nbps;
-   .Low developement cost due to Webservices API and faster coding &nbps;
-   .Single Instance &nbps;
-   .Multiple Security layers &nbps;
-   .Server side native NoSQL &nbps;
-   .Fast Developement &nbps;
-   .PowerIndex &nbps;
-   .Using JsonPowerDB is equally Easy and Fast when used with Server Side programming like Java, .NET, Python or PHP etc &nbps;
+   .Simple to use &nbsp;
+   .Real time &nbsp;
+   .Raw data is human readable &nbsp;
+   .Schema Free &nbsp;
+   .Low developement cost due to Webservices API and faster coding &nbsp;
+   .Single Instance &nbsp;
+   .Multiple Security layers &nbsp;
+   .Server side native NoSQL &nbsp;
+   .Fast Developement &nbsp;
+   .PowerIndex &nbsp;
+   .Using JsonPowerDB is equally Easy and Fast when used with Server Side programming like Java, .NET, Python or PHP etc&nbsp;
   
   ------
  ### Release History
@@ -37,9 +37,19 @@
 - [#6] Added a README.md file
 
 ---
+&nbsp;&nbsp;
+
+## Screenshots
+![Validation](https://github.com/snippy066/assignment/blob/main/projectImage/assign1.png)
+![Executation](https://github.com/snippy066/assignment/blob/main/projectImage/assign2.png)
+![Result](https://github.com/snippy066/assignment/blob/main/projectImage/assign3.png)
+![Database](https://github.com/snippy066/assignment/blob/main/projectImage/assign4.png)
+
+
+-----
    
   ### Instructions
-  ___________________
+  _____________________
 #### Requirements
   * Web Browser
   * Database Connection Token
