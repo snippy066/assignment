@@ -70,24 +70,24 @@ and open the template in the editor.
                 };
                 return JSON.stringify(jsonStrObj);
             }
-             
-             //request function
-             function createPUTRequest(connToken, jsonObj, dbName, relName) {
-var putRequest = "{\n"
-+ "\"token\" : \""
-+ connToken
-+ "\","
-+ "\"dbName\": \""
-+ dbName
-+ "\",\n" + "\"cmd\" : \"PUT\",\n"
-+ "\"rel\" : \""
-+ relName + "\","
-+ "\"jsonStr\": \n"
-+ jsonObj
-+ "\n"
-+ "}";
-return putRequest;
-}
+
+            //request function
+            function createPUTRequest(connToken, jsonObj, dbName, relName) {
+                var putRequest = "{\n"
+                        + "\"token\" : \""
+                        + connToken
+                        + "\","
+                        + "\"dbName\": \""
+                        + dbName
+                        + "\",\n" + "\"cmd\" : \"PUT\",\n"
+                        + "\"rel\" : \""
+                        + relName + "\","
+                        + "\"jsonStr\": \n"
+                        + jsonObj
+                        + "\n"
+                        + "}";
+                return putRequest;
+            }
             //on click function
             function saveEmp() {
                 var jsonStr = validateAndGetFormData();
