@@ -88,6 +88,8 @@ and open the template in the editor.
                         + "}";
                 return putRequest;
             }
+            
+            //command execution function
             function executeCommand(reqString, dbBaseUrl, apiEndPointUrl) {
                 var url = dbBaseUrl + apiEndPointUrl;
                 var jsonObj;
@@ -99,6 +101,8 @@ and open the template in the editor.
                 });
                 return jsonObj;
             }
+            
+            //reseting the form values
             function resetForm() {
                 $("#empId").val("")
                 $("#empName").val("");
