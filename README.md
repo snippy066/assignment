@@ -21,11 +21,11 @@
   
   ------
  ### Release History
-#### v0.0.0 (19/08/2021 2:30pm)
+#### v0.0.0 (19/08/2021 3:30pm)
 ##### Initialization:
 - [#1] Added basic designs of all planned HTML pages
 
- #### v0.1.0 (19/08/2021 4:00pm)
+ #### v0.1.0 (19/08/2021 6:00pm)
 ##### Enhancements:
 - [#2] Designed all HTML pages
 - [#3] Added JS and connected pages to JsonPowerDB
