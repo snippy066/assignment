@@ -89,23 +89,23 @@ and open the template in the editor.
                 return putRequest;
             }
             function executeCommand(reqString, dbBaseUrl, apiEndPointUrl) {
-var url = dbBaseUrl + apiEndPointUrl;
-var jsonObj;
-$.post(url, reqString, function (result) {
-jsonObj = JSON.parse(result);
-}).fail(function (result) {
-var dataJsonObj = result.responseText;
-jsonObj = JSON.parse(dataJsonObj);
-});
-return jsonObj;
-}
-function resetForm() {
-$("#empId").val("")
-$("#empName").val("");
-$("#empEmail").val("");
-$("#empId").focus();
-}
-            
+                var url = dbBaseUrl + apiEndPointUrl;
+                var jsonObj;
+                $.post(url, reqString, function (result) {
+                    jsonObj = JSON.parse(result);
+                }).fail(function (result) {
+                    var dataJsonObj = result.responseText;
+                    jsonObj = JSON.parse(dataJsonObj);
+                });
+                return jsonObj;
+            }
+            function resetForm() {
+                $("#empId").val("")
+                $("#empName").val("");
+                $("#empEmail").val("");
+                $("#empId").focus();
+            }
+
             //on click function
             function saveEmp() {
                 var jsonStr = validateAndGetFormData();
@@ -120,7 +120,7 @@ $("#empId").focus();
 //                        "http://api.login2explore.com:5577", "/api/iml");
                 alert(JSON.stringify(resultObj));
                 jQuery.ajaxSetup({async: true});
-               // resetForm();
+                // resetForm();
             }
         </script>
     </body>
