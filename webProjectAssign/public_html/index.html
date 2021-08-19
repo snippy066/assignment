@@ -44,31 +44,31 @@ and open the template in the editor.
 
         <script>
             function validateAndGetFormData() {
-var empIdVar = $("#empId").val();
-if (empIdVar === "") {
-alert("Employee ID Required Value");
-$("#empId").focus();
-return "";
-}
-var empNameVar = $("#empName").val();
-if (empNameVar === "") {
-alert("Employee Name is Required Value");
-$("#empName").focus();
-return "";
-}
-var empEmailVar = $("#empEmail").val();
-if (empEmailVar === "") {
-alert("Employee Email is Required Value");
-$("#empEmail").focus();
-return "";
-}
-var jsonStrObj = {
-empId: empIdVar,
-empName: empNameVar,
-empEmail: empEmailVar,
-};
-return JSON.stringify(jsonStrObj);
-}
+                var empIdVar = $("#empId").val();
+                if (empIdVar === "") {
+                    alert("Employee ID Required Value");
+                    $("#empId").focus();
+                    return "";
+                }
+                var empNameVar = $("#empName").val();
+                if (empNameVar === "") {
+                    alert("Employee Name is Required Value");
+                    $("#empName").focus();
+                    return "";
+                }
+                var empEmailVar = $("#empEmail").val();
+                if (empEmailVar === "") {
+                    alert("Employee Email is Required Value");
+                    $("#empEmail").focus();
+                    return "";
+                }
+                var jsonStrObj = {
+                    empId: empIdVar,
+                    empName: empNameVar,
+                    empEmail: empEmailVar,
+                };
+                return JSON.stringify(jsonStrObj);
+            }
 
             //on click function
             function saveEmp() {
