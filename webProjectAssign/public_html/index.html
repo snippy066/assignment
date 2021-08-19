@@ -120,11 +120,11 @@ and open the template in the editor.
                         jsonStr, "Records", "Emp");
                 alert(putReqStr);
                 jQuery.ajaxSetup({async: false});
-//                var resultObj = executeCommand(putReqStr,
-//                        "http://api.login2explore.com:5577", "/api/iml");
+               var resultObj = executeCommand(putReqStr,
+                       "http://api.login2explore.com:5577", "/api/iml");
                 alert(JSON.stringify(resultObj));
                 jQuery.ajaxSetup({async: true});
-                // resetForm();
+                 resetForm();
             }
         </script>
     </body>
