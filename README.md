@@ -40,10 +40,10 @@
 &nbsp;&nbsp;
 
 ## Screenshots
-![Validation](https://github.com/snippy066/assignment/blob/main/projectImage/assign1.png)
-![Executation](https://github.com/snippy066/assignment/blob/main/projectImage/assign2.png)
-![Result](https://github.com/snippy066/assignment/blob/main/projectImage/assign3.png)
-![Database](https://github.com/snippy066/assignment/blob/main/projectImage/assign4.png)
+![Validation](https://github.com/snippy066/assignment/blob/main/projectImage/assign1.png)&nbsp;&nbsp;
+![Executation](https://github.com/snippy066/assignment/blob/main/projectImage/assign2.png)&nbsp;&nbsp;
+![Result](https://github.com/snippy066/assignment/blob/main/projectImage/assign3.png)&nbsp;&nbsp;
+![Database](https://github.com/snippy066/assignment/blob/main/projectImage/assign4.png)&nbsp;&nbsp;
 
 
 -----
@@ -53,8 +53,10 @@
 #### Requirements
   * Web Browser
   * Database Connection Token
+  
 #### Execution
-* open `index.html` to open the Indec page
+* open `index.html` to open the Index page
+
 #### Website
 * To go on any page
   * click on the link
@@ -62,7 +64,7 @@
   * click <- arrow on Browser
 
 #### Scope of functionalities
-* It is a very basic project for demonstration of JsonPowerDb with help of a web application. 
-* Can be further improved by addidng additional fields and can be made into a working DB manager.
+* It is a very basic project for demonstration of JsonPowerDb with help of a web application for Employee management. 
+
 
                                        
